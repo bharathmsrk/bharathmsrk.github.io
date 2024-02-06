@@ -1,5 +1,6 @@
 {
   "name": "devportfolio-template",
+  "homepage": "https://bharathmsrk.github.io/bharathmsrk.github.io",
   "version": "1.2.2",
   "description": "",
   "main": "js/scripts.js",
@@ -27,5 +28,9 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "gulp-wait": "0.0.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
